@@ -15,7 +15,7 @@ const int analogInPitchPin = A4; // пин для резистора по Pitch
 
       
 int Yaw,outputYawL,outputYawR, flagY,flagYF = 0; 
-int Roll,tvist,tvistFlag, timeY = 0;        
+int Roll,tvist,tvistFlag, timeY = 0;  //tvistFlag -реверс рулевого мотора, tvist-шим на двигатель       
 int outputRoll = 0;
 int outputRollR = 0;
 int Pitch = 0;        
